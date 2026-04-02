@@ -1,16 +1,63 @@
-# React + Vite
+#  Next Play – Performance Task Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, AI-powered Kanban-style performance board inspired by tools like Asana, Linear, and Notion.
 
-Currently, two official plugins are available:
+This application enables users to create, manage, and track tasks visually with drag-and-drop workflows, AI assistance, and real-time updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+###  AI-Powered Enhancements
+- Improve task descriptions using AI
+- Generate smarter execution plans
+- Coach-style insights for productivity
 
-## Expanding the ESLint configuration
+###  Kanban Board Workflow
+- Game Plan → In Training → Coach Review → Match Ready
+- Drag & drop tasks across columns
+- Real-time UI updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Team & Assignees
+- Assign tasks to team members
+- Visual ownership tracking
+- Clean dropdown-based assignment system
+
+###  Search & Filtering
+- Search tasks instantly
+- Filter by intensity / priority
+
+###  Dashboard Insights
+- Active plays count
+- Workflow distribution stats
+- AI-generated coach insights
+
+###  Task Management
+- Title, description, priority, due date
+- Edit and update tasks dynamically
+
+###  Secure Data Handling
+- Supabase integration
+- Row Level Security (RLS)
+- Anonymous guest sessions (no login required)
+
+---
+
+##  Tech Stack
+
+- React (Frontend)
+- Vite
+- Tailwind CSS
+- Supabase (Database + Auth)
+- Node.js + Express (AI Backend)
+- OpenAI API
+- dnd-kit (Drag and Drop)
+
+---
+
+## ⚙️ Local Setup
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/nikerockstar007/nextplay-kanban.git
+cd nextplay-kanban
